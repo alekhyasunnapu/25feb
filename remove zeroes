@@ -1,0 +1,6 @@
+x=[0,5,0,0,3,1,15,0,12]
+for value in range(0,len(x)):
+    if x[value]<=0:
+       del x[value]
+       print(x)
+print(x)
